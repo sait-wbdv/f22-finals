@@ -1,3 +1,7 @@
+<script setup>
+import {roster} from '../data/roster-w22';
+
+</script>
 <template>
   <div class="page-wrapper">
     <header>
@@ -42,6 +46,9 @@
       <h3 class="rounds">End of Presentations!</h3>
     </main>
   </div>
+  <RosterCard v-for="student in roster" :key="student.id" :student=student>
+    <slot></slot>
+  </RosterCard>
 </template>
 
 <style>
