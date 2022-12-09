@@ -1,5 +1,5 @@
 <script setup>
-const props = defineProps({badge: {type: String}});
+const props = defineProps({badge: {type: Object}});
 </script>
 
 <template>

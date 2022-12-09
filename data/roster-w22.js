@@ -113,7 +113,7 @@ export const roster = [
       },
       {
         label: "email",
-        link: "maryambkhan1214@gmail.com"
+        link: "mailto:maryambkhan1214@gmail.com"
       }
     ],
     badges: [
@@ -143,7 +143,7 @@ export const roster = [
       },
       {
         label: "email",
-        link: "will334833613@gmail.com"
+        link: "mailto:will334833613@gmail.com"
       }
     ],
     badges: [

@@ -17,9 +17,9 @@ const props = defineProps({student: {type: Object}});
       <p>{{student.tagline}}</p>
       <footer class="social">
         <ul>
-          <!-- <SocialLink v-for="link in student.links" :key="link.id" :link=link>
+          <SocialLink v-for="link in student.links" :key="link.id" :link=link>
               <slot></slot>
-          </SocialLink> -->
+          </SocialLink>
         </ul>
       </footer>
     </figcaption>
