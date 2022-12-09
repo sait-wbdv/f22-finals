@@ -1,6 +1,19 @@
 <script setup>
-import {roster} from '../data/roster-w22';
+// import { roster } from '../data/roster-w22';
+import { round1 , round2 } from "../data/finals-w22.js";
 
+const rounds = [
+  {
+    speakers: round1,
+    start: '10:30am',
+    container: 'round1'
+  },
+  {
+    speakers: round2,
+    start: '11:30am',
+    container: 'round2'
+  }
+];
 </script>
 <template>
   <div class="page-wrapper">
@@ -35,20 +48,16 @@ import {roster} from '../data/roster-w22';
         <li><em>Deployment</em>: GitHub, Netlify</li>
         <li><em>Design</em>: Figma, Photoshop/GIMP</li>
       </ul>
-      <h3 class="rounds open">10:15am: Round 1 Presentations</h3>
-      <section id="round1">
-        <!-- Dynamic Content Here-->
-      </section>
-      <h3 class="rounds">11:30am: Round 2 Presentations</h3>
-      <section id="round2">
-        <!-- Dynamic Content Here-->
-      </section>
+      
+      <Presentation v-for="(round, index) in rounds" :key="round.id" :round=round :index=index>
+        <slot></slot>
+      </Presentation>
       <h3 class="rounds">End of Presentations!</h3>
     </main>
   </div>
-  <RosterCard v-for="student in roster" :key="student.id" :student=student>
+  <!-- <RosterCard v-for="student in roster" :key="student.id" :student=student>
     <slot></slot>
-  </RosterCard>
+  </RosterCard> -->
 </template>
 
 <style>
