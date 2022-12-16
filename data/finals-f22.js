@@ -27,6 +27,10 @@ const round2 = [
     title: 'Portfolio Website'
   },
   {
+    name: "Jian",
+    title: "Portfolio Website"
+  },
+  {
     name: 'Rustu Mesut Eser',
   title: "Lily's Garden Shop"
   },
