@@ -11,7 +11,7 @@ const props = defineProps({
   <h3 class="rounds open">{{round.start}}: Round {{(index + 1)}} Presentations</h3>
       <section :id="round.container">
         <article class="presentation" v-for="speaker in round.speakers" :key="speaker.id" :speaker=speaker>
-          <header>{{speaker.title}}</header>
+          <header><h4>{{speaker.title}}</h4></header>
           <div>
             <ul>
               <li v-if="!speaker.members">

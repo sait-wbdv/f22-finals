@@ -21,8 +21,8 @@ const rounds = [
       <img src="/images/sait-logo.png" alt="SAIT Logo">
       <div>
         <h1>SAIT Web Developer Fast Track</h1>
-        <h2>Final Presentations - April 22, 2022</h2>
-      </div>
+        <h2>Final Presentations - December 16, 2022</h2>
+      </div> 
     </header>
     <main>
       <h3>Introductions</h3>
@@ -30,21 +30,13 @@ const rounds = [
         <li><a href="https://www.linkedin.com/in/tony-grimes-778ba135/">Tony Grimes</a>: Lead Instructor</li>
         <li><a href="https://www.linkedin.com/in/ashlyn-knox13/">Ashlyn Knox</a>: Co-Instructor</li>
         <li><a href="https://www.linkedin.com/in/dasachadwick/">Dasa Chadwick</a>: Career and Consulting Instructor</li>
-        <li>Facilitators:
-          <ul>
-            <li>Jess</li>
-            <li>Patrick</li>
-            <li>Mike</li>
-            <li>Fesal</li>
-          </ul>
-        </li>
         <li><a href="https://www.linkedin.com/in/autumn-heinze-48624a50/">Autumn Heinze</a>: Work Integrated Learning Coordinator</li>
         <li><a href="https://www.linkedin.com/in/eringates28/">Erin Gates</a>: Academic Chair, School of Advanced Digital Technology</li>
       </ul>
       <h3>Program Overview</h3>
       <ul class="overview">
-        <li><em>Tools</em>: Git/npm, VS Code, Postman</li>
-        <li><em>Development</em>: HTML/CSS/JS, VueJS/NuxtJS, StoryBlok, CSS Tailwind</li>
+        <li><em>Tools</em>: Git/GitHub, npm, VS Code, Postman</li>
+        <li><em>Development</em>: HTML/CSS/JS, VueJS/NuxtJS, Strapi Headless CMS, CSS Tailwind</li>
         <li><em>Deployment</em>: GitHub, Netlify</li>
         <li><em>Design</em>: Figma, Photoshop/GIMP</li>
       </ul>
