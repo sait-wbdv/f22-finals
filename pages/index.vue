@@ -55,7 +55,25 @@ const rounds = [
 <style>
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway:wght@300&display=swap');
+
+/* Comment out for live site */
+/* body {
+  margin-bottom: 50vh;
+}
+.presentation {
+  margin-bottom: 6em;
+  min-height: 100vh;
+}
+h3.rounds {
+  margin: 40vh 0;
+}
+h3.open {
+  margin-top: 50vh;
+} */
+/* End comment */
+
 /* Font */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;

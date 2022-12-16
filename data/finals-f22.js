@@ -14,10 +14,6 @@ const round1 = [
   {
     name: 'Myka Peligrino',
     title: 'Andromeda Jewelry Website'
-  },
-  {
-    name: 'Doh Kim',
-    title: 'Portfolio Website'
   }
 ];
 
@@ -25,6 +21,10 @@ const round2 = [
   {
     name: 'Darryl Becker',
     title: 'Photography Website'
+  },
+  {
+    name: 'Doh Kim',
+    title: 'Portfolio Website'
   },
   {
     name: 'Rustu Mesut Eser',

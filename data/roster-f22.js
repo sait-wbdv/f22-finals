@@ -240,7 +240,11 @@ export const roster = [
       {
         label: "linkedin",
         link: "https://www.linkedin.com/in/ashley-morgan-wbdv/"
-      }
+      },
+      {
+        label: "email",
+        link: "mailto:ashleymorgan.wbdv@gmail.com"
+      },
     ],
     badges: [
       {
