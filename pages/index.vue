@@ -5,12 +5,12 @@ import { round1 , round2 } from "../data/finals-f22.js";
 const rounds = [
   {
     speakers: round1,
-    start: '10:30am',
+    start: '10:15am',
     container: 'round1'
   },
   {
     speakers: round2,
-    start: '11:30am',
+    start: '11:15am',
     container: 'round2'
   }
 ];
