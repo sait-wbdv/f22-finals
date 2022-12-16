@@ -4,7 +4,7 @@ const props = defineProps({student: {type: Object}});
 
 <template>
   <figure>
-    <img :src="'/images/roster/' + student.avatar" :alt="student.label + ' Profile Pic'">
+    <img :src="'/images/roster/f22/' + student.avatar" :alt="student.label + ' Profile Pic'">
     <figcaption>
       <aside class="badges">
         <ul>

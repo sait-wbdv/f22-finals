@@ -1,6 +1,6 @@
 <script setup>
 // import { roster } from '../data/roster-w22';
-import { round1 , round2 } from "../data/finals-w22.js";
+import { round1 , round2 } from "../data/finals-f22.js";
 
 const rounds = [
   {

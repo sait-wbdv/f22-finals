@@ -1,5 +1,5 @@
 <script setup>
-import { roster } from '../data/roster-w22';
+import { roster } from '../data/roster-f22';
 
 const props = defineProps({
   round: {type: Object},

@@ -10,6 +10,7 @@ const socialLookUp = {
   instagram: 'fa6-brands:instagram',
   youtube: 'fa6-brands:youtube',
   email: 'fa6-regular:envelope',
+  resume: 'fa6-regular:file-lines',
   default: 'fa6-solid:user-tie'
 }
 </script>
